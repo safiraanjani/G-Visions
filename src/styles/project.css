@@ -1,0 +1,31 @@
+.wrapper-project
+{
+    display: grid;
+    grid-template-columns: 4fr;
+    background-color: #C9EEE4;
+    color: #40a977;
+    padding: 35px;
+    font-size: 36px;
+    text-align: center;
+}
+
+.project {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    background-color: #C9EEE4;
+}
+
+.project-item {
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 3rem;
+}
+
+.item-kotak {
+    width: 450px;
+    height: 250px;
+    background-color: #40a977;
+    border-radius: 25px 25px 25px 25px;
+    float: left;
+}
