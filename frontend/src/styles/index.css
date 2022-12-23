@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=DynaPuff&family=Merriweather:wght@300&family=Poppins:wght@400&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #C9EEE4;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* .img-hero {
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).webp");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.img-hero{
+  background-image: url("../../public/assets/images/landingpage.png");
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

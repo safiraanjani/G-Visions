@@ -1,0 +1,46 @@
+.custom-footer {
+    background-color: #048C6C;
+    color: white;
+    /* height: 70vh; */
+}
+.font-title{
+    font-size: 18px;
+}
+.fonts{
+    font-size: 12px;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.sosmed{
+    justify-content: center;
+    font-size: 40px;
+    padding-right: 10px;
+}
+.sosial-container{
+    padding-left: 6rem;
+    margin-top: 10px;
+}
+.contact{
+    padding-left: 50px;
+}
+.medium{
+    font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+    .sosmed{
+        justify-content: left;
+    }
+    .contact{
+        padding-left: 5px;
+    }
+    .sosial-container{
+        justify-content: center;
+        padding-left: 0%;
+    }
+  }
