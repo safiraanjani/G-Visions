@@ -1,7 +1,10 @@
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import Home from "./pages/Home";
-import './styles/index.css';
+import Contact from "./pages/Contact";
+
+
+
 
 import $ from 'jquery';
 
@@ -31,6 +34,10 @@ const router = createBrowserRouter ([
           element : <Home />
         }
       ]
+    },
+    {
+      path:"/contact",
+      element: <Contact />
     }
 ]);
 function App() {
