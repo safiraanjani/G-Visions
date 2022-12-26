@@ -33,3 +33,11 @@
 .nama-skills {
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    .wrapper-item {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: #D7F9F0;
+    }
+}
