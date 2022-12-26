@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/about.scss';
+import { Link } from 'react-router-dom';
 
 export default function About() {
     const about = [
@@ -43,7 +44,7 @@ export default function About() {
             </div>
             <div className="content">
               <div className="nama">
-                {about.name}
+                <Link to={`/member/${about.id}`}>{about.name}</Link>
               </div>
               <div className="exp">
                 Programmer | Web Developer | Copy Writer | dll

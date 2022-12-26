@@ -2,6 +2,7 @@ import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
+import Member from "./pages/Member";
 
 
 
@@ -38,6 +39,10 @@ const router = createBrowserRouter ([
     {
       path:"/contact",
       element: <Contact />
+    },
+    {
+      path:"/member/:id",
+      element: <Member />
     }
 ]);
 function App() {
