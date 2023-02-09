@@ -1,133 +1,103 @@
-.wrapper-project
+.wrapper-skills
 {
     display: grid;
     grid-template-columns: 4fr;
-    background-color: #C9EEE4;
+    background-color: #D7F9F0;
     color: #40a977;
     padding: 35px;
     font-size: 36px;
     text-align: center;
 }
 
-.project {
+.wrapper-item {
     display: grid;
-    grid-template-columns: 2fr 2fr;
-    background-color: #C9EEE4;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #D7F9F0;
 }
 
-.project-item {
+.item {
     max-width: 90%;
     margin-right: auto;
     margin-left: auto;
     padding-bottom: 3rem;
 }
 
-.item-kotak {
-    width: 450px;
-    height: 250px;
+.item-circle {
+    width: 130px;
+    height: 130px;
     background-color: #40a977;
-    border-radius: 25px 25px 25px 25px;
+    border-radius: 50%;
     float: left;
 }
 
-@media screen and (max-width: 1024px) {
-    .wrapper-project
-    {
-        display: grid;
-        grid-template-columns: 4fr;
-        background-color: #C9EEE4;
-        color: #40a977;
-        padding: 35px;
-        font-size: 36px;
-        text-align: center;
-    }
-
-    .project {
-        display: grid;
-        grid-template-columns: 2fr 2fr;
-        background-color: #C9EEE4;
-    }
-
-    .project-item {
-        max-width: 90%;
-        margin-right: auto;
-        margin-left: auto;
-        padding-bottom: 3rem;
-    }
-
-    .item-kotak {
-        width: 350px;
-        height: 150px;
-        background-color: #40a977;
-        border-radius: 25px 25px 25px 25px;
-        float: left;
-    }
+.nama-skills {
+    text-align: center;
 }
 
-@media screen and (max-width: 600px) {
-    .wrapper-project
+@media screen and (max-width: 768px) {
+    .wrapper-skills
     {
         display: grid;
-        grid-template-columns: 2fr;
-        background-color: #C9EEE4;
+        grid-template-columns: 3fr;
+        background-color: #D7F9F0;
         color: #40a977;
         padding: 35px;
         font-size: 36px;
         text-align: center;
     }
 
-    .project {
+    .wrapper-item {
         display: grid;
-        grid-template-columns: 1fr;
-        background-color: #C9EEE4;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: #D7F9F0;
     }
 
-    .project-item {
+    .item {
         max-width: 90%;
         margin-right: auto;
         margin-left: auto;
         padding-bottom: 3rem;
     }
 
-    .item-kotak {
-        width: 350px;
-        height: 150px;
+    .item-circle {
+        width: 100px;
+        height: 100px;
         background-color: #40a977;
-        border-radius: 25px 25px 25px 25px;
+        border-radius: 50%;
         float: left;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .wrapper-project
+    .wrapper-skills
     {
         display: grid;
-        grid-template-columns: 2fr;
-        background-color: #C9EEE4;
+        grid-template-columns: 3fr;
+        background-color: #D7F9F0;
         color: #40a977;
         padding: 35px;
         font-size: 36px;
         text-align: center;
     }
 
-    .project {
+    .wrapper-item {
         display: grid;
-        grid-template-columns: 1fr;
-        background-color: #C9EEE4;
+        grid-template-columns: 1fr 1fr;
+        background-color: #D7F9F0;
     }
 
-    .project-item {
+    .item {
         max-width: 90%;
         margin-right: auto;
         margin-left: auto;
         padding-bottom: 3rem;
     }
 
-    .item-kotak {
-        width: 250px;
+    .item-circle {
+        width: 100px;
         height: 100px;
         background-color: #40a977;
-        border-radius: 25px 25px 25px 25px;
+        border-radius: 50%;
         float: left;
     }
 }
