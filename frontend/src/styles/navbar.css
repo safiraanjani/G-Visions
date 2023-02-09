@@ -8,7 +8,6 @@
     background-color: #fff;
     color: black;
     box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
-    z-index: 999;
   }
   .brand-name img {
     display: flex;
@@ -53,10 +52,6 @@
   .hamburger:hover {
     background-color: #2bf0c2;
   }
-  .navigation.sticky{
-    position: fixed;
- }
-
 
   @media screen and (max-width: 768px) {
     .hamburger {
@@ -105,7 +100,7 @@
   @media screen and (max-width: 768px) {
     .navigation-menu ul {
       /* previous styles */
-      display: none;
+      dipslay: none;
     }
   }
 
